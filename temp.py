@@ -99,6 +99,5 @@ print(x>y)
 print(x==y)
 print(x!=y)
 """
-for var in list(range(5)):
-  x+str(var)=  input('num: ' + str(var) + ":  ")
+
     
