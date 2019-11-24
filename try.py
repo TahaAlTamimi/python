@@ -340,7 +340,7 @@ for i in range(10):
 #   
 # =============================================================================
 
-n =9
+n = int(input('enter number '))
 c = 1
 for x in range(n):
     for y in range (n-x-1):
@@ -370,7 +370,7 @@ for x in range(n-2,-1,-1):
             c=c+1
        
     print("\n", end ="")
-    c=1
+    c=1 
 
     
     
