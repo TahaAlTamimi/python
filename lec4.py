@@ -122,7 +122,20 @@ Created on Sun Nov 24 09:53:47 2019
 # letters=['a','b','c']
 # print(list(zip(numbers, letters)))
 # =============================================================================
-
+def area(r):
+    a=3.142*r**2
+    print(a)
+    return a 
+    
+    
+def vol(area,l):
+    print(a*l)
+     
+    
+r=int(input('rnter raduis'))
+l=int(input('length'))
+a=area(r) 
+vol(area,l)   
 
 
 
