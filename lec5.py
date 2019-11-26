@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+00#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 25 09:53:05 2019
@@ -215,7 +215,18 @@ Created on Mon Nov 25 09:53:05 2019
 # ( x.setprivate(7))
 # print ( x.getprivate())
 
+my_name = 'ryu'
+print('outside the function the name is', my_name)
 
+def print_name():
+    global my_name
+    my_name = 'yoshi'
+    print('inside the function the name is', my_name)
+    #print(locals().keys())
+    print(globals().keys())
+
+print_name()
+print('outside the function the name is', my_name)
 
 
 
