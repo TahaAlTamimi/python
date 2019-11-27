@@ -263,34 +263,36 @@ def dellist(EmployeeList):
 
 
 #Q3
-numberofEmployee(EmployeeList)          
-# Q5=============================================================================
+# =============================================================================
+# numberofEmployee(EmployeeList)          
+# # Q5=============================================================================
 # infofEmployee(EmployeeList)
-# =============================================================================
- 
-          
-# =============================================================================
-# Q14
-#hightssalary(EmployeeList)
-#Q15
+# # =============================================================================
+#  
+#           
+# # =============================================================================
+# # Q14
+# hightssalary(EmployeeList)
+# #Q15
 # lowestsalary(EmployeeList)
-#Q16
+# #Q16
 # totaltsalary(EmployeeList)
+# # 
 # 
-
-#Q11
+# #Q11
 # loanDic(EmployeeList)
-#Q12
+# #Q12
 # lowestMaxloan(result)  
-# 
-# 
-#Q10  
+# # 
+# # 
+# #Q10  
 # listofloan(EmployeeList)  
-#Q9 
+# #Q9 
 # maxloan(EmployeeList)   
-#     
-#Q8 
-#minloan(EmployeeList)
+# #     
+# #Q8 
+# minloan(EmployeeList)
+# =============================================================================
 #Q17
 #dellist(EmployeeList)
 # =============================================================================
@@ -340,15 +342,27 @@ def dellists(StudentList):
 #         print (StudentList+'I have been deleted') 
 # =============================================================================
 #Q17 
-#dellists(StudentList) 
+# =============================================================================
+# dellists(StudentList) 
+# =============================================================================
 # =============================================================================
 # Q13
-#MarkA(StudentList)         
+MarkA(StudentList)         
 #Q7 
-#maxavg(StudentList)
+maxavg(StudentList)
 # #
 #Q6
-# infEmployee(StudentList)      
+infEmployee(StudentList)      
 #Q4 
-#numberofStudent(StudentList)
+numberofStudent(StudentList)
 # =============================================================================
+
+del EmployeeList
+del StudentList
+del Student1,Student2,Student3,Student4
+
+
+
+
+
+
