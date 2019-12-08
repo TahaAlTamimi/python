@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Dec  8 09:30:02 2019
+Created on Sun Dec  8 12:41:35 2019
 
 @author: owner
 """
-
-from flask import Flask
+from flask import Flask ,render_template
 app=Flask(__name__)
-@app.route('/<name>')
+@app.route('/')
 # =============================================================================
 # @app.route('/ta/<name>')
 # =============================================================================
-def hello_world(name):
-    return '<html><body>`<h1>Hello, World! <p>%s</p></h1></body></html>' %name
+def index():
+    return render_template('Index5.html') 
+
 if __name__=='__main__':
     app.run(debug=True)
-    
