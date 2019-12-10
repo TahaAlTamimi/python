@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <p>current users</p>
+    <table>
+      <th>first name</th>
+      <th>last name</th>
+      <th>age</th>
+
+      <tr>
+        {% for user in users %}
+      </tr>
+      <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
